@@ -128,12 +128,17 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NhaCungCap227Controller.cs" />
+    <Compile Include="Controllers\NTTHSanPham227Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\202112210608393_1.cs" />
     <Compile Include="Migrations\202112210608393_1.designer.cs">
       <DependentUpon>202112210608393_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112210626164_2.cs" />
+    <Compile Include="Migrations\202112210626164_2.Designer.cs">
+      <DependentUpon>202112210626164_2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\LTQLDb.cs" />
@@ -182,6 +187,11 @@
     <Content Include="Views\NhaCungCap227\Details.cshtml" />
     <Content Include="Views\NhaCungCap227\Edit.cshtml" />
     <Content Include="Views\NhaCungCap227\Index.cshtml" />
+    <Content Include="Views\NTTHSanPham227\Create.cshtml" />
+    <Content Include="Views\NTTHSanPham227\Delete.cshtml" />
+    <Content Include="Views\NTTHSanPham227\Details.cshtml" />
+    <Content Include="Views\NTTHSanPham227\Edit.cshtml" />
+    <Content Include="Views\NTTHSanPham227\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -202,6 +212,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202112210608393_1.resx">
       <DependentUpon>202112210608393_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112210626164_2.resx">
+      <DependentUpon>202112210626164_2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
