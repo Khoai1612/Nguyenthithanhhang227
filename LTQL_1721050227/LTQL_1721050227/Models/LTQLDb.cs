@@ -11,5 +11,6 @@ namespace LTQL_1721050227.Models
         public LTQLDb() : base("LTQLDb")
         {
         }
+        public DbSet<NhaCungCap227> NhaCungCap227s { get; set; }
     }
 }
