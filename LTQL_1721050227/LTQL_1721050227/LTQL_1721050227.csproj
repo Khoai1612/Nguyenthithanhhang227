@@ -138,6 +138,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\LTQLDb.cs" />
     <Compile Include="Models\NhaCungCap227.cs" />
+    <Compile Include="Models\NTTHSanPham227.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

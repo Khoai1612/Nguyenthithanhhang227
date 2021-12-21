@@ -16,5 +16,6 @@ namespace LTQL_1721050227.Models
         [Display(Name = "Tên Nhà Cung Cấp")]
         [StringLength(50)]
         public string TenNhaCungCap { get; set; }
+        public ICollection<NTTHSanPham227> NTTHSanPham227s { get; set; }
     }
 }
